@@ -1,0 +1,143 @@
+{
+    "name": "Joseph Liyon PT",
+    "github": "https://github.com/jliyon23",
+    "linkedin": "https://www.linkedin.com/in/jliyon23/",
+    "email": "josephliyon23@gmail.com",
+    "college": "SNGCE",
+    "certifications": [
+    {
+      "id": "cert1",
+      "title": "Responsive Web Design Certification",
+      "issuer": "freecodecamp",
+      "issueDate": "April 2025",
+      "credentialUrl": "https://www.freecodecamp.org/certification/josephliyon23/responsive-web-design",
+      "image": "https://api.microlink.io?url=https%3A%2F%2Ffreecodecamp.org/certification/josephliyon23/responsive-web-design/&screenshot=true&embed=screenshot.url",
+      "featured": true,
+      "category": {
+        "name": "frontend",
+        "color": "blue"
+      },
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": "cert2",
+      "title": "Complete Web Development Bootcamp",
+      "issuer": "Udemy",
+      "issueDate": "January 2024",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-91384143-d451-46ab-bf32-de85505cc2ce/",
+      "image": "https://api.microlink.io?url=https%3A%2F%2Fudemy.com/certificate/UC-91384143-d451-46ab-bf32-de85505cc2ce/&screenshot=true&embed=screenshot.url",
+      "featured": true,
+      "category": {
+        "name": "Web Development",
+        "color": "green"
+      },
+      "skills": ["ReactJs", "ExpressJs", "MongoDB", "NodeJs"]
+    },
+    {
+        "id": "cert3",
+        "title": "Tailwind CSS Bootcamp",
+        "issuer": "Lets Upgrade",
+        "issueDate": "August 2024",
+        "credentialUrl": "https://verify.letsupgrade.in/certificate/LUETCMAR124559",
+        "image": "https://api.microlink.io?url=https%3A%2F%2Fverify.letsupgrade.in/certificate/LUETCMAR124559/&screenshot=true&embed=screenshot.url",
+        "featured": false,
+        "category": {
+          "name": "Design",
+          "color": "purple"
+        },
+        "skills": ["Tailwind"]
+      }
+  ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "CloudSpace",
+        "description": "An Intelligent Multicloud backup system with automated file backup based on importance and rapid recovery",
+        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/CloudSpace",
+        "status": "Active",
+        "repoUrl": "https://github.com/jliyon23/CloudSpace",
+        "demoUrl": "#",
+        "primaryTag": {
+          "name": "NodeJS",
+          "color": "green"
+        },
+        "secondaryTag": {
+          "name": "ElectronJS",
+          "color": "zinc"
+        },
+        "technologies": ["Express", "MongoDB", "React", "Cloudinary", "Dropbox", "MEGA", "ElectronJS"]
+      },
+      {
+        "id": 2,
+        "title": "LLM Chatbot",
+        "description": "A Chatbout powered by LLMs using ReactJs and Gemini API",
+        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/LLM-ChatBot",
+        "status":"Active",
+        "demoUrl": "https://llmchatbotv1.vercel.app/",
+        "repoUrl": "https://github.com/jliyon23/LLM-ChatBot",
+        "primaryTag": {
+          "name": "ReactJS",
+          "color": "blue"
+        },
+        "secondaryTag": {
+          "name": "Gemini",
+          "color": "zinc"
+        },
+        "technologies": ["ReactJS", "Gemini", "NodeJS"]
+      },
+      {
+        "id": 3,
+        "title": "KTU-Results",
+        "description": "Unoffical UI for checking KTU results",
+        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/APIHub",
+        "repoUrl": "https://github.com/jliyon23/ktu-results",
+        "status": "under maintenance",
+        "demoUrl": "https://kturesults.vercel.app/",
+        "primaryTag": {
+          "name": "Express",
+          "color": "green"
+        },
+        "secondaryTag": {
+          "name": "ReactJS",
+          "color": "zinc"
+        },
+        "technologies": ["Express", "ReactJS", "Axios"]
+      },
+      {
+        "id": 4,
+        "title": "FUGENIZ.11",
+        "description": "A website for a college fest",
+        "image": "https://api.microlink.io?url=https%3A%2F%2Ffugeniz11.vercel.app/&screenshot=true&embed=screenshot.url",
+        "status": "Active",
+        "repoUrl": "https://github.com/jliyon23/fugeniz11",
+        "demoUrl": "https://fugeniz11.vercel.app/",
+        "primaryTag": {
+          "name": "ReactJS",
+          "color": "blue"
+        },
+        "secondaryTag": {
+          "name": "TailwindCSS",
+          "color": "zinc"
+        },
+        "technologies": ["ReactJS", "TailwindCSS", "Frame Motion"]
+      },
+      {
+        "id": 5,
+        "title": "Student Management System",
+        "description": "Student Management System project for KTU S5 DBMS Lab",
+        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/Student-Management-System",
+        "status": "Active",
+        "repoUrl": "https://github.com/jliyon23/Student-Management-System",
+        "demoUrl": "",
+        "primaryTag": {
+          "name": "ReactJS",
+          "color": "blue"
+        },
+        "secondaryTag": {
+          "name": "MongoDB",
+          "color": "zinc"
+        },
+        "technologies": ["ReactJS", "TailwindCSS", "MongoDB"]
+      }
+    ]
+  }

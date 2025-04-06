@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Background -->
+  <rect width="200" height="100" rx="10" fill="#2a2a2a"/>
+  
+  <!-- Letter J with stylized elements -->
+  <path d="M40 25 L55 25 L55 60 C55 70 45 75 35 70" stroke="#61dafb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Letter L -->
+  <path d="M65 25 L65 70 L85 70" stroke="#61dafb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Dot for portfolio flair -->
+  <circle cx="95" cy="70" r="3" fill="#61dafb"/>
+  
+  <!-- Text "JOSEPH LIYON" -->
+  <text x="100" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">JOSEPH</text>
+  <text x="100" y="70" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#ffffff" text-anchor="middle">LIYON</text>
+  
+  <!-- Decorative underline -->
+  <path d="M60 80 L140 80" stroke="#61dafb" stroke-width="2" stroke-dasharray="1, 3"/>
+</svg>
