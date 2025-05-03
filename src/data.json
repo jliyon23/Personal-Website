@@ -104,7 +104,7 @@
         "technologies": ["Express", "ReactJS", "Axios"]
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "FUGENIZ.11",
         "description": "A website for a college fest",
         "image": "https://api.microlink.io?url=https%3A%2F%2Ffugeniz11.vercel.app/&screenshot=true&embed=screenshot.url",
@@ -120,6 +120,42 @@
           "color": "zinc"
         },
         "technologies": ["ReactJS", "TailwindCSS", "Frame Motion"]
+      },
+        {
+        "id": 3,
+        "title": "KTU-Results",
+        "description": "Unoffical UI for checking KTU results",
+        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/APIHub",
+        "repoUrl": "https://github.com/jliyon23/ktu-results",
+        "status": "under maintenance",
+        "demoUrl": "https://kturesults.vercel.app/",
+        "primaryTag": {
+          "name": "Express",
+          "color": "green"
+        },
+        "secondaryTag": {
+          "name": "ReactJS",
+          "color": "zinc"
+        },
+        "technologies": ["Express", "ReactJS", "Axios"]
+      },
+      {
+        "id": 4,
+        "title": "ScrapArena",
+        "description": "gsmarena web scraper",
+        "image": "https://api.microlink.io?url=https%3A%2F%2Fscraparena.onrender.com/&screenshot=true&embed=screenshot.url",
+        "status": "Active",
+        "repoUrl": "https://github.com/jliyon23/scraparena",
+        "demoUrl": "https://scraparena.onrender.com",
+        "primaryTag": {
+          "name": "NodeJS",
+          "color": "green"
+        },
+        "secondaryTag": {
+          "name": "TailwindCSS",
+          "color": "zinc"
+        },
+        "technologies": ["NodeJS", "TailwindCSS", "Cheerio"]
       },
       {
         "id": 5,
