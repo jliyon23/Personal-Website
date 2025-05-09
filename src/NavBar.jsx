@@ -105,8 +105,7 @@ const NavBar = ({ isOpen, closeNav, activeSection }) => {
                     {/* Footer */}
                     <div className="p-6 border-t border-zinc-800">
                         <div className="flex items-center justify-between text-sm text-zinc-500">
-                            <span>© 2024 Joseph Liyon</span>
-                            <span>v1.0.0</span>
+                            <span>Personal portfolio of Joseph Liyon</span>
                         </div>
                     </div>
                 </div>
