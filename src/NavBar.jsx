@@ -43,9 +43,10 @@ const NavBar = ({ isOpen, closeNav, activeSection }) => {
                     <div className="p-6 border-b border-zinc-800">
                         <div className="flex justify-between items-center mb-6">
                             <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
+                                <img src="https://avatars.githubusercontent.com/u/120583161?u=0000a3b685f97197eaf8f83e6dcb8d4213d95dc3&v=4" alt="" className='w-12 h-12 rounded-md' />
+                                {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
                                     <span className="text-xl font-bold text-white">JL</span>
-                                </div>
+                                </div> */}
                                 <div>
                                     <h2 className="text-xl font-bold text-zinc-100">JLiyon23</h2>
                                     <p className="text-sm text-zinc-400">Full Stack Developer</p>
