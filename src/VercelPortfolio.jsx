@@ -9,6 +9,7 @@ const VercelPortfolio = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [isChatOpen, setIsChatOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
+    const [activeProjectTab, setActiveProjectTab] = useState('web');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -162,8 +163,11 @@ const VercelPortfolio = () => {
                             username="jliyon23"
                             blockSize={10}
                             blockMargin={5}
-                            color="#00ff00"
                             fontSize={12}
+                            theme={{
+                                light: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'],
+                                dark: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353']
+                            }}
                         />
                     </div>
                 </div>
@@ -280,8 +284,55 @@ const VercelPortfolio = () => {
                     </a>
                 </div>
 
+                {/* Project Tabs */}
+                <div className="flex gap-2 border-b border-zinc-800">
+                    <button
+                        onClick={() => setActiveProjectTab('web')}
+                        className={`px-4 py-2 text-sm font-medium transition-colors ${
+                            activeProjectTab === 'web'
+                                ? 'text-blue-400 border-b-2 border-blue-400'
+                                : 'text-zinc-400 hover:text-zinc-200'
+                        }`}
+                    >
+                        Full Stack
+                    </button>
+                    <button
+                        onClick={() => setActiveProjectTab('scrap')}
+                        className={`px-4 py-2 text-sm font-medium transition-colors ${
+                            activeProjectTab === 'scrap'
+                                ? 'text-blue-400 border-b-2 border-blue-400'
+                                : 'text-zinc-400 hover:text-zinc-200'
+                        }`}
+                    >
+                        Web Scrap
+                    </button>
+                    <button
+                        onClick={() => setActiveProjectTab('ai')}
+                        className={`px-4 py-2 text-sm font-medium transition-colors ${
+                            activeProjectTab === 'ai'
+                                ? 'text-blue-400 border-b-2 border-blue-400'
+                                : 'text-zinc-400 hover:text-zinc-200'
+                        }`}
+                    >
+                        AI Projects
+                    </button>
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {data.projects.map((project) => (
+                    {data.projects
+                        .filter(project => {
+                            switch (activeProjectTab) {
+                                case 'web':
+                                    return project.primaryTag.name === 'Full Stack';
+                                case 'scrap':
+                                    return project.primaryTag.name === 'Web Scraping';
+                                case 'ai':
+                                    return project.primaryTag.name === 'AI/ML';
+                                default:
+                                    return true;
+                            }
+                        })
+                        .map((project) => (
                         <div
                             key={project.id}
                             className="group flex flex-col overflow-hidden border border-zinc-800 rounded-lg bg-zinc-900/50 shadow-lg transition-all duration-300 hover:border-zinc-700 hover:shadow-blue-900/10 hover:shadow-xl"

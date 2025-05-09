@@ -58,7 +58,7 @@
         "repoUrl": "https://github.com/jliyon23/CloudSpace",
         "demoUrl": "#",
         "primaryTag": {
-          "name": "NodeJS",
+          "name": "Full Stack",
           "color": "green"
         },
         "secondaryTag": {
@@ -76,7 +76,7 @@
         "demoUrl": "https://llmchatbotv1.vercel.app/",
         "repoUrl": "https://github.com/jliyon23/LLM-ChatBot",
         "primaryTag": {
-          "name": "ReactJS",
+          "name": "AI/ML",
           "color": "blue"
         },
         "secondaryTag": {
@@ -94,7 +94,7 @@
         "status": "under maintenance",
         "demoUrl": "https://kturesults.vercel.app/",
         "primaryTag": {
-          "name": "Express",
+          "name": "Web Scraping",
           "color": "green"
         },
         "secondaryTag": {
@@ -112,7 +112,7 @@
         "repoUrl": "https://github.com/jliyon23/fugeniz11",
         "demoUrl": "https://fugeniz11.vercel.app/",
         "primaryTag": {
-          "name": "ReactJS",
+          "name": "Full Stack",
           "color": "blue"
         },
         "secondaryTag": {
@@ -120,24 +120,6 @@
           "color": "zinc"
         },
         "technologies": ["ReactJS", "TailwindCSS", "Frame Motion"]
-      },
-        {
-        "id": 3,
-        "title": "KTU-Results",
-        "description": "Unoffical UI for checking KTU results",
-        "image": "https://opengraph.githubassets.com/317f0ed00d6d6d4a22f24b956b3988bc254e791fcfe1955acef5add1764cfb42/jliyon23/APIHub",
-        "repoUrl": "https://github.com/jliyon23/ktu-results",
-        "status": "under maintenance",
-        "demoUrl": "https://kturesults.vercel.app/",
-        "primaryTag": {
-          "name": "Express",
-          "color": "green"
-        },
-        "secondaryTag": {
-          "name": "ReactJS",
-          "color": "zinc"
-        },
-        "technologies": ["Express", "ReactJS", "Axios"]
       },
       {
         "id": 4,
@@ -148,7 +130,7 @@
         "repoUrl": "https://github.com/jliyon23/scraparena",
         "demoUrl": "https://scraparena.onrender.com",
         "primaryTag": {
-          "name": "NodeJS",
+          "name": "Web Scraping",
           "color": "green"
         },
         "secondaryTag": {
@@ -166,7 +148,7 @@
         "repoUrl": "https://github.com/jliyon23/Student-Management-System",
         "demoUrl": "",
         "primaryTag": {
-          "name": "ReactJS",
+          "name": "Full Stack",
           "color": "blue"
         },
         "secondaryTag": {
